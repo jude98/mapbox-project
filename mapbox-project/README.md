@@ -10,6 +10,11 @@ This projects uses MapBox to render live Map and extract the static image (PNG) 
 * react-mapbox-gl - for implementing mapbox
 * react-babylonjs - babylon.Js react library
 
+### How the App Works
+
+When loaded, a global map will be displayed in the viewport. The map will be having the geolocation selector to select the current location of the user. 
+We can select the location to be mapped to the model by double clicking on any location on the map or by moving the map pointer icon (location icon) to the desired location. Then based on latitude and longitude and the zoom value, the app ouputs a static image, placed on a container where we have options to make 3D model and back to map. On click on the map to 3D model button, the image as the texture will be provided to the scene and the 3D model will be generated.
+
 
 # Getting Started with Create React App
 
