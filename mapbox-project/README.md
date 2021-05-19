@@ -1,3 +1,16 @@
+# TO VIEW THE LIVE DEMO OF THE APP [CLICK HERE](https://jude98.github.io/mapbox-project/)
+
+## ABOUT
+
+This an application to build a 3D cuboidal model from a texture, which is a static location image of the location selected by the user. 
+This projects uses MapBox to render live Map and extract the static image (PNG) and uses Babylon.js for making the 3D model from the texture.
+
+### LIBRARIES USED
+
+* react-mapbox-gl - for implementing mapbox
+* react-babylonjs - babylon.Js react library
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
