@@ -6,6 +6,8 @@ import "../../src/index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { useSelector } from "react-redux";
+import imageUrl from '../images/map-image.png';
+
 
 const BackButton = styled.div`
   position: absolute;

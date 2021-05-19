@@ -1,12 +1,15 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import styled from "styled-components";
+import imageUrl from '../images/map-image.png';
 
 const Container = styled.div`
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(${imageUrl}) no-repeat;
+  width: 100%;
 `;
 
 const ImageContainer = styled.div`
