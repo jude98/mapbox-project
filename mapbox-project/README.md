@@ -10,6 +10,8 @@ This projects uses MapBox to render live Map and extract the static image (PNG) 
 * react-mapbox-gl - for implementing mapbox
 * react-babylonjs - babylon.Js react library
 
+**Note : The application uses public access token of the MapBox**
+
 ### How the App Works
 
 When loaded, a global map will be displayed in the viewport. The map will be having the geolocation selector to select the current location of the user. 
