@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import mapboxgl from "mapbox-gl";
 import ReactMapGL, { GeolocateControl, Marker } from "react-map-gl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { useDispatch, useSelector } from "react-redux";
 import { onSelectLocation } from "../actions/locationAction";
 import { fetchImage } from "../actions/imageAction";
+
+// @ts-ignore
+// eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
+mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
 const accessToken = process.env.REACT_APP_API_KEY;
 
