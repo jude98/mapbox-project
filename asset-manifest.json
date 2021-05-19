@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mapbox-project/static/css/main.63a3b58e.chunk.css",
-    "main.js": "/mapbox-project/static/js/main.54a19125.chunk.js",
-    "main.js.map": "/mapbox-project/static/js/main.54a19125.chunk.js.map",
+    "main.js": "/mapbox-project/static/js/main.0c41f233.chunk.js",
+    "main.js.map": "/mapbox-project/static/js/main.0c41f233.chunk.js.map",
     "runtime-main.js": "/mapbox-project/static/js/runtime-main.b88a12b2.js",
     "runtime-main.js.map": "/mapbox-project/static/js/runtime-main.b88a12b2.js.map",
     "static/css/2.19072978.chunk.css": "/mapbox-project/static/css/2.19072978.chunk.css",
@@ -15,13 +15,14 @@
     "static/css/main.63a3b58e.chunk.css.map": "/mapbox-project/static/css/main.63a3b58e.chunk.css.map",
     "static/js/2.dfd6f1e0.chunk.js.LICENSE.txt": "/mapbox-project/static/js/2.dfd6f1e0.chunk.js.LICENSE.txt",
     "static/js/mapbox-gl-csp-worker.a0c20419.worker.js": "/mapbox-project/static/js/mapbox-gl-csp-worker.a0c20419.worker.js",
-    "static/js/mapbox-gl-csp-worker.a0c20419.worker.js.map": "/mapbox-project/static/js/mapbox-gl-csp-worker.a0c20419.worker.js.map"
+    "static/js/mapbox-gl-csp-worker.a0c20419.worker.js.map": "/mapbox-project/static/js/mapbox-gl-csp-worker.a0c20419.worker.js.map",
+    "static/media/map-image.5ff45e7c.png": "/mapbox-project/static/media/map-image.5ff45e7c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b88a12b2.js",
     "static/css/2.19072978.chunk.css",
     "static/js/2.dfd6f1e0.chunk.js",
     "static/css/main.63a3b58e.chunk.css",
-    "static/js/main.54a19125.chunk.js"
+    "static/js/main.0c41f233.chunk.js"
   ]
 }
